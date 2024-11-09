@@ -1,0 +1,84 @@
+.buisness-right {
+    width: 100%;
+    margin: auto;
+}
+
+.buisness-right-box {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 0;}
+    .info-request{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 80%;
+    }
+    .req-btn{
+        border: none;
+        outline: none;
+        padding: 15px 25px;
+        background: #fff;
+        color: #4a39aef0;
+        font-weight: 600;
+        border-radius: 10px;
+        font-size: 16px;
+    }
+    .buisness-icon{
+        color: #fff;
+    }
+
+    .buisness-right-container {
+            width: 80%;
+        }
+                .buisness-right {
+                    display: flex;
+                    justify-content: center;
+        
+                }
+        
+                .buisness-right-box {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    padding: 40px;
+                    border-radius: 20px;
+                    height: auto;
+                    color: #fff;
+                    width: 90%;
+                    margin: auto;
+                }
+        
+                .buisness-right-box h2 {
+                    font-size: 28px;
+                }
+        
+                .buisness-right-container {
+                    display: flex;
+                    justify-content: center;
+                    background: #4a39aef0;
+                    border-radius: 20px;
+                    width: 65%;
+                    margin-top: 50px;
+                }
+        
+                .buisness-right-box p {
+                    text-align: justify;
+                    font-size: 18px;
+        
+                }
+                @media (max-width:700px) {
+                .buisness-right-container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 50px;
+                    width: 90%;
+                }
+                .buisness-right-box{
+                    padding-bottom: 0px;
+                }
+                }

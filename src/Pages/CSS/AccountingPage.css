@@ -1,0 +1,296 @@
+.accounting-heading{
+    font-size: 24px;
+    font-weight: 600;margin-top: 40px;
+    color: #4a39aef0;
+    text-align: center;
+}
+.accounting2{
+    margin-top: 30px;
+}
+.buisnesspage{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+.accounting-para{
+    color: rgb(53, 52, 52);
+    font-weight: 400;
+}
+
+.accounting2 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.accounting2-lists h2{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 600;
+}
+.accounting-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accounting-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    margin-top: 70px;
+}
+
+.head-line hr{
+    width: 70%;
+    margin: auto;
+    color: #fff;
+    opacity: unset;
+        height: 6px;
+        background: #fff;
+        margin-top: 0px;
+}
+.head-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: auto;
+    width: fit-content;
+}
+.accounting-icon{
+display: flex;
+gap: 10px;
+}
+.accounting-top-para{
+    font-size: 26px;
+    font-weight: 600;
+}
+.accounting2-lists {
+    color: rgb(53, 52, 52);
+}
+.accounting-right-box{
+    padding: 30px;
+    background: #4a39aef0;
+    border-radius: 20px;
+    height: auto;
+    color: #fff;
+    width: 100%;
+    margin-top: 100px;
+}
+.accounting-right-box h2{
+    font-size: 28px;
+}
+.simple-card2 {
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+
+.simple-card2 li {
+    list-style: none;
+}
+
+.simple-card-box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin-top: 30px;
+}
+
+.simple-card2 h2 {
+    color: #4a39aef0;
+    font-weight: 500;
+    font-size: 24px;
+    height: 10vh;
+
+}
+
+.simple-card2 li {
+    color: rgba(0, 0, 0, 0.908);
+    font-weight: 400;
+    text-align: justify;
+}
+.double-card-box{
+    display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    margin-top: 40px;
+}
+.benefit-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.double-card h2{
+    
+    color: #4a39aef0;
+}
+.benefit-cards{
+display: grid;
+grid-template-columns: 1fr 1fr  ;
+column-gap: 30px;
+row-gap: 60px;
+margin-top: 40px;
+}
+.benefit-cards3{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr  ;
+column-gap: 30px;
+row-gap: 60px;
+margin-top: 40px;
+}
+
+
+.benefit-card2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.benefit-cards2{
+display: grid;
+grid-template-columns: 1fr 1fr  1fr 1fr ;
+column-gap: 30px;
+row-gap: 40px;
+margin-top: 40px;
+}
+.process-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #4a39aef0;
+}
+.process-circle p{
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+   margin-bottom: 0;
+}
+
+
+.benefit-card h2{
+    height: 10vh;
+    font-size: 22px;
+    color: #4a39aef0;
+    text-align: center;
+
+}
+.benefit-card2 h2{
+    height: 6vh;
+    font-size: 22px;
+    color: #4a39aef0;
+    text-align: center;
+    margin-bottom: 0;
+}
+.benefit-card li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.736);
+    font-weight: 500;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+}
+.benefit-card2 li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.812);
+    font-weight: 400;
+    text-align: justify;
+}
+.double-card li{
+    text-align: justify;
+    list-style: none;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.63);
+}
+@media(max-width:1020px){
+    .accounting-head{
+        margin-bottom: 0px;
+    }
+    .buisnesspage{
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+    .accounting-right{
+        width: 100%;
+        margin: aut;
+    }
+    .accounting-right-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 0;
+    }
+    .accounting-icon{
+        text-align: center;
+    }
+}
+@media(max-width:900px){
+    .benefit-cards2{
+grid-template-columns: 1fr 1fr !important;
+    }
+}
+@media(max-width:630px){
+    .benefit-cards2{
+grid-template-columns: 1fr  !important;
+width: 90%;
+margin: auto;
+margin-top: 40px;
+margin-bottom: 30px;
+row-gap: 60px;
+    }
+    .benefit-card2{
+        width: 100%;
+        margin: auto;
+    
+    }
+    .benefit-cards{
+        grid-template-columns: 1fr;
+    }
+    .benefit-cards3{
+        grid-template-columns: 1fr;
+        margin-bottom: 30px;
+    }
+    .double-card-box{
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+    .double-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .benefit-card2 li{
+        font-size: 18px;
+    }
+    .benefit-card h2{
+        font-size: 26px;
+    }
+    .benefit-card2 h2{
+        font-size: 26px;
+    }
+    .benefit-card li{
+        width: 90%;
+        font-size: 16px;
+    }
+    .simple-card2 li{
+        width: 90%;
+        margin: auto;
+    }
+    .head-line{
+        width: 90%;
+    }
+}

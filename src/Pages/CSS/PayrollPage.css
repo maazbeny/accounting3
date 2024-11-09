@@ -1,0 +1,108 @@
+
+.payroll-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-top: 40px;
+}
+.payroll-img{
+    width: 100%;
+}
+.payroll-cards2{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 40px;
+    row-gap: 60px;
+    margin-top: 40px;
+}
+.payroll-card{
+    background: #4a39aef0;
+    padding: 30px;
+    color: #fff;
+    border-radius: 20px;
+    &:nth-last-child(1),
+        &:nth-last-child(2) {
+            transform: translateX(50%);
+        }
+}
+
+.payroll-card2{
+    background: #4a39aef0;
+    padding: 30px;
+    color: #fff;
+    border-radius: 20px;
+    height: 40vh;
+  
+}
+.payroll-card h2{
+    font-size: 1.8rem;
+    height: 10vh;
+}
+.payroll-card li{
+    list-style: none;
+    font-size: 18px;
+
+}
+.payroll-card2 h2{
+    font-size: 1.8rem;
+}
+.payroll-card2 li{
+    list-style: none;
+    font-size: 18px;
+
+}
+@media (max-width:900px) {
+    .payroll-cards2{
+        grid-template-columns: 1fr !important;
+    }
+    
+}
+@media (max-width:810px) {
+    .payroll-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+    .payroll-card2{
+        height: 50vh;
+    }
+         .payroll-card:nth-last-child(2) {
+             transform: translateX(0);
+         }
+}
+@media (max-width:750px) {
+    .payroll-card2{
+        height: 60vh;
+    }
+}
+@media (max-width:630px) {
+    .payroll-cards{
+        grid-template-columns: 1fr ;
+    }
+    .payroll-cards2{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .payroll-card2{
+        height: 40vh;
+    }
+         .payroll-card:nth-last-child(2) {
+             transform: translateX(0);
+         }
+         .payroll-card:nth-last-child(1) {
+             transform: translateX(0);
+         }
+         .payroll-card{
+            height: auto;
+         }
+         .payroll-card li{
+            width: 80%;
+         }
+}
+@media (max-width:400px) {
+.payroll-card{
+    height: auto;
+}
+.payroll-card2{
+    height: auto;
+}
+}

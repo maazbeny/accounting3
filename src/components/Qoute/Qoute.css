@@ -1,0 +1,335 @@
+
+.qoute{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+    background: #fff !important;
+    color: #000;
+    border: none !important;
+    transition: background-color 0.3s;
+}
+ .calculator-3 {
+     font-size: 18px;
+     color: #fff;
+ }
+.qoute-heading{
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: #4a39aef0;
+    font-weight: 600;
+}
+.qoute-table{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 10px 0px 40px 0px;
+}
+.qoute-para{
+    font-size: 22px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px;
+    color: #646464;
+    margin-bottom: 0px;
+
+}
+.text-input{
+    width: 100%;
+display: flex;
+flex-direction: row;
+gap: 70px;
+}
+.input-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+    ;
+}
+.happy{
+    color: #4a39aef0 !important;
+    font-size: 18px !important;
+    font-weight: 700;
+}
+
+.input-left{
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 55px;
+    border-radius: 50px;
+    background: #fff !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding-left: 25px;
+    
+}
+.dropdown button{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+        outline: none;
+        width: 400px;
+        height: 55px;
+        border-radius: 50px;
+        background: white;
+        color: #b0b0c2;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+        padding-left: 25px;
+}
+.dropdown button:focus{
+    outline: none;
+    border: 2px solid #4a39aef0;
+}
+.input-left:focus{
+    border: 2px solid #4a39aef0;
+}
+.text-input input::placeholder{
+    color: #b0b0c2;
+}
+.btn:hover {
+    color: #b0b0c2;
+}
+
+.dropdown-menu{
+    width: 100%;
+    font-size: 14px;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #fff !important;
+    background-color: #4a39aef0 !important;
+}
+.qoute-btn{
+    padding: none;
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.calculator-3 {
+    margin-top: 4px;
+    font-size: 14px;
+}
+input:-internal-autofill-selected {
+    background-color: #fff !important;
+    /* Set to your desired color */
+    color: #000 !important;
+    /* Ensure text color */
+}
+
+/* General input styles */
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+    overflow-clip-margin: 0px !important;
+    overflow: clip !important;
+    background: #fff !important;
+    /* Default background */
+    color: #000;
+    /* Text color */
+    border: 1px solid #ccc;
+    /* Optional border */
+    transition: background-color 0.3s;
+    /* Smooth transition */
+}
+/* .input-left::placeholder {
+    color: #b0b0c2;
+} */
+
+.input-left:valid{
+    background: #fff !important;
+}
+.input-left:invalid{
+    background: #fff !important;
+}
+.input-left:-webkit-autofill{
+    background: #fff !important;
+}
+.input-left:-moz-autofill {
+    background: #fff !important;
+    /* Maintain background for autofill */
+    color: #000 !important;
+    /* Ensure text color remains consistent */
+}
+.qoute-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.qoute-icon-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #4a39aef0;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 35px;
+border-radius: 20px;
+border: none;
+outline: none;
+}
+.calculated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4a39aef0;
+}
+.calculated h2{
+    font-weight: 700;
+    font-size: 52px;
+}
+.calculated h3{
+    font-weight: 700;
+    font-size: 42px;
+    text-align: center;
+    
+}
+.cal-btn{
+    padding: 10px 40px;
+    /* background: #4a39aef0; */
+    background: linear-gradient(to left, #3c7bb7 0%, #6040d2d2 100%);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cal-btn:active{
+    background: #fff;
+}
+.error-message{
+    margin-left: 10px;
+    color: #4a39aef0;
+    font-weight: 600;
+}
+.empty{
+    height: 25px;
+}
+
+.calculated p{
+    font-size: 32px;
+    font-weight: 500;
+    color: #646464;
+    text-align: center;
+}
+.note{
+    font-size: 18px !important;
+    width: 60%;
+    text-align: center;
+}
+.calculator-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.quote-heading{
+    color: #646464;
+}
+.qoute-icon-btn:active{
+   background: #fff;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width:950px) {
+    .input-left{
+        width: 320px;
+    }
+    .dropdown button{
+        width: 320px;
+    }
+    .input-block{
+        gap: 20px;
+    }
+}
+
+@media (max-width:780px) {
+    .input-left{
+        width: 95%;
+    }
+    .dropdown button{
+        width: 95%;
+    }
+    .input-block{
+        gap: 12px;
+        width: 100%;
+    }
+    .qoute-box{
+        width: 100%;
+    }
+    .qoute-table{
+        width: 90%;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .text-input{
+        gap: 40px;
+        flex-direction: column;
+        
+    }
+        .qoute-icon-btn {
+           width: 300px;
+            font-size: 13px;
+            padding: 16px 28px;
+
+            
+        }
+        .calculator-3{
+            font-size: 14px;
+            color: #fff;
+            margin-right: 3px;
+        }
+}
+@media (max-width:650px) {
+    .error-message{
+        font-size: 14px;
+    }
+    .empty{
+        height: 20px;
+    }
+        .input-left::placeholder {
+            color: #b0b0c2;
+            font-size: 17px;
+        }
+        .calculated p{
+            width: 100%;
+            font-size: 28px;
+        }
+        .calculated h3{
+            font-size: 32px;
+        }
+        .calculated h2{
+            font-size: 46px;
+        }
+        .note{
+            font-size: 16px !important;
+            width: 95% !important;
+        }
+        .happy{
+            font-size: 16px !important;
+            width: 90% !important;
+        }
+        .thanks h2{
+            text-align: center;
+            font-size: 36px;
+        }
+        
+        
+}

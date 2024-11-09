@@ -1,0 +1,28 @@
+.privacy-page{
+    width: 90%;
+    margin: auto;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+p strong{
+    font-size: 20px;
+    font-weight: 600;
+}
+.home-logo2{
+    display: none;
+}
+ 
+
+
+@media (max-width:600px) {
+    .home-logo2 {
+        display: unset;
+            width: 50%;
+            /* margin: auto; */
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+   
+}

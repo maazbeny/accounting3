@@ -1,0 +1,145 @@
+
+
+.choose{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.choose-card-container{
+
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+width: 90%;
+margin: auto;
+}
+
+.choose-card img{
+    width: 200px;
+}
+.dedicated{
+    width: 330px !important;
+    height: 200px;
+}
+.choose-heading{
+    margin-bottom: 0px;
+    font-size: 44px;
+    color: #4a39aef0;
+    font-weight: 600;
+}
+.choose-para{
+    font-size: 22px;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+    color: #646464;
+    margin-bottom: 30px;
+}
+.choose-card{
+   /* border: 6px solid #4a39aef0; */
+    box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+        background: #fff;
+        border-radius: 30px;
+        height: auto;
+    width: 95%;
+    height: 75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.choose-card p{
+    margin-bottom: 0px;
+}
+.card-heading{
+    color: #4a39aef0;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+}
+.choose-card-para{
+    /* background: #4a39aef0; */
+    text-align:center;
+    width: 100%;
+    padding: 20px;
+    padding-top: 0px;
+    height: 51vh;
+    /* color: white; */
+    color: #646464;
+    border-radius: 23px;
+}
+.choose-card-para{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+.choose-card-para img{
+    width: 200px !important;
+}
+@media (max-width:1050px) {
+    .choose-card-para{
+    height: 30vh;
+    }
+    .choose-card-container {
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 30px;
+    }
+
+    .choose-card {
+        width: 90%;
+        height: auto;
+    }
+         .choose-card:nth-child(3) {
+             grid-column: span 2;
+            
+             justify-self: center;
+             width: 45%;
+         }
+         .about-choose-card:nth-child(3) {
+             grid-column: span 2;
+            
+             justify-self: center;
+             width: 45%;
+         }
+}
+
+@media (max-width:750px) {
+    .choose-card-container {
+        grid-template-columns: 1fr;
+        column-gap: 40px;
+        justify-content: center;
+    }
+
+    .choose-card {
+        width: 100%;
+        justify-self: center;
+        place-self: center;
+        place-items: center;
+    }
+    .choose-para{
+        font-size: 18px;
+        width: 95%;
+    }
+                .choose-card:nth-child(3) {
+                 
+                        grid-column: unset;
+                    
+                        justify-self: unset;
+                      
+                        width: 100%;
+                      
+                    
+                }
+                .dedicated{
+                    height: 180px;
+                }
+                
+}

@@ -1,0 +1,268 @@
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+   
+}
+
+.pop {
+    background: #fff;
+   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    max-width: 800px;
+    
+    width: 90%;
+   
+    position: relative;
+    overflow: auto;
+    padding-top: 30px;
+
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+ 
+    font-size: 24px;
+  
+    color: #333;
+   
+    cursor: pointer;
+    transition: color 0.3s ease;
+ 
+}
+
+
+
+.close-button:focus {
+    outline: none;
+
+}
+
+.pop-qoute-table {
+    display: flex;
+    width: 100%;
+}
+
+.pop-text-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+    
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+}
+
+.pop-input-block,
+.pop-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+
+}
+.error-message1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a39aef0;
+    margin-left: 10px;
+}
+
+.pop-input-left {
+    border: none;
+    outline: none;
+    width: 90%;
+   
+    height: 45px;
+  
+    border-radius: 20px;
+
+    background: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  
+    padding-left: 15px;
+ 
+    font-size: 14px;
+  
+}
+.pop-input-left::placeholder{
+    color: #b0b0c2;
+}
+.dropdown {
+    width: 100%;
+
+}
+
+.extra button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    width: 90%;
+ 
+    height: 45px;
+   
+    font-size: 14px;
+  
+    border-radius: 20px;
+  
+    background: white;
+    color: #b0b0c2;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+   
+    padding-left: 15px;
+   
+}
+
+.dropdown-menu {
+    width: 100%;
+    font-size: 14px;
+
+}
+
+.dropdown-item {
+    color: #000;
+
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #e9ecef;
+ 
+    color: #000;
+   
+}
+
+.pop-icon-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4a39aef0;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 20px;
+ 
+    border-radius: 40px;
+    width: 220px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.empty1{
+    height: 15px;
+}
+.pop-qoute-head{
+    font-weight: 600;
+    color: #4a39aef0;
+    font-size: 42px;
+    margin-bottom: 20px;
+
+}
+.pop-icon-btn:active{
+    background: none;
+    border: 2px solid #4a39aef0;
+    color: #4a39aef0;
+}
+.pop-icon-btn:active .pop-btn {
+    color: #4a39aef0;
+
+}
+.pop-icon-btn:active .calculator-3 {
+    color: #4a39aef0;
+
+}
+.pop-btn {
+    display: flex;
+    gap: 10px;
+    padding: none;
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+@media (max-width:650px) {
+    .pop-text-input{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .pop{
+        width: 330px;
+    }
+    .pop-input-left{
+        height: 40px;
+    }
+    .extra button{
+        height: 40px;
+    }
+    .pop-icon-btn{
+        padding: 8px 5px;
+        width: 100%;
+    }
+    .pop-btn{
+        font-size: 14px;
+    }
+    .calculator-3{
+        font-size: 13px;
+    }
+    .pop-block{
+        gap: 0px;
+    }
+    .pop-input-block{
+        gap: 0px;
+    }
+    .pop-text-input{
+        gap: 0px;
+    }
+    .pop-icon-btn{
+        margin-top: 15px;
+        width: 82%;
+        margin-left: 10px;
+    }
+    .pop{
+        padding-top: 10px;
+        align-items: unset;
+    }
+        .pop-qoute-head {
+           display: none;
+    
+        }
+}
+@media (max-width:400px) {
+    .pop{
+        width: 270px;
+    }
+    .pop-input-left{
+        width: 95%;
+        font-size: 11px;
+    }
+    .extra button{
+        width: 95%;
+        font-size: 11px;
+    }
+    .extra{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,220 @@
+
+.aboutpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: auto;
+}
+.aboutpage1-left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 70%;
+    height: auto;
+    background: #4a39aef0;
+    padding: 40px 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.about-head{
+    width: 80%;
+    text-align: center;
+    color: #4a39aef0;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+.aboutpage hr{
+    width: 120px;
+    height: 6px;
+    opacity: unset;
+    background: #4a39aef0;
+    margin-top: 5px;
+    margin: auto;
+}
+.aboutpage1-right{
+    display: flex;
+    width: 60%;
+}
+.aboutpage1-right img{
+width: 100%;
+}
+.aboutpage1{
+    width: 100%;
+    margin: auto    ;
+    display: flex;
+    height: auto;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.aboutpic{
+    width:90%;
+}
+.aboutpic2{
+    width: 90%;
+}
+.aboutpage1-para{
+    margin: 0px;
+    font-size: 26px;
+    color: white;
+    font-weight: 600;
+}
+.aboutpage1-heading{
+    margin: 0;
+    font-size: 44px;
+    color: #fff;
+}
+.aboutpage1-chotapara{
+    margin: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.aboutpage-2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    margin-top: 60px;
+}
+.work-head{
+    font-size: 44px;
+    font-weight: 600;
+    color: #4a39aef0;
+}
+.aboutpage2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 100%;
+}
+.aboutpage2-left{
+    width: 100%;
+}
+.aboutpage2-right{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    background: #4a39aef0;
+    border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        padding: 40px 30px;
+
+}
+.aboutpage2-right h2{
+    color: #fff;
+}
+.aboutpage2-right p{
+    color: #fff;
+}
+.unsure-box{
+    
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+    border-radius: 30px;
+   
+}
+ .unsure-box h2 {
+     font-size: 1.8rem;
+     text-align: center;
+ }
+ .unsure-box p{
+    text-align: center;
+    width: 80%;
+ }
+.unsure-box button{
+    padding: 10px 40px;
+    background: #4a39aef0;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.unsure-box button:active{
+    background: none;
+    border: 2px solid #4a39aef0;
+    color: #4a39aef0;
+}
+
+
+@media (max-width:990px) {
+    .aboutpage1-heading{
+        font-size: 40px;
+    }
+         .unsure-box p {
+             width: 100%;
+         }
+}
+@media (max-width:900px) {
+    .unsure-box {
+            width: 95%;
+        }
+       
+    .aboutpage1{
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    .aboutpage1-left{
+        align-items: center;
+        text-align: center;
+        border-radius: 20px;
+        width: 95%;
+    }
+    .aboutpage1-right{
+        width: 100%;
+    }
+    .aboutpage2{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+       
+    }
+    .aboutpage2-left{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }.unsure-box p{
+        text-align: start;
+    }
+    .aboutpage2-right{
+        border-radius: 20px;
+        text-align: center;
+        width: 95%;
+    }
+    .aboutpic{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .aboutpage1-para {
+        font-size: 22px;
+    }
+    .aboutpage1-heading{
+        font-size: 32px;
+    }
+    
+   
+}
+@media (max-width:650px) {
+   .about-head{
+    width: 95%;
+   }
+    
+   
+}

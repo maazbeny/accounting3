@@ -1,0 +1,23 @@
+.navbar-homepage{
+  /* background: #2a2262; */
+  background: #4a39aef0;
+  /* background: linear-gradient(135deg, rgb(86, 188, 250) 0%, #4a39aef0 100%); */
+  /* background: linear-gradient(to right, #f1ebfb, #a07eff); */
+  /* background: linear-gradient(135deg, #f1ebfb, #a07eff); */
+
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+@media (max-width:600px) {
+
+  .navbar-homepage{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+    border-radius: 0px;
+  }
+}

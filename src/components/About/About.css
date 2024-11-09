@@ -1,0 +1,156 @@
+
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 60px;
+
+}
+.acca-logo{
+    width: 60%;
+    height: 70px;
+}
+.about-left{
+    display: flex;
+
+    align-items: end;
+    place-items: center ;
+    width: 45%;
+}
+.img-bg{
+    /* display: none; */
+    left: -5%;
+    position: relative;
+    width: 130%;
+}
+.upper-image{
+   
+    /* position: absolute; */
+    max-width: 63%;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin: auto;
+}
+
+.about-right{
+    width: 80%;
+    height: auto;
+ 
+    gap: 0px;
+    padding: 40px;
+    background: #4a39aef0;
+    /* border: 6px solid #6237a0; */
+    /* border-radius: 50px; */
+    border-top-left-radius: 50px;
+   
+        border-bottom-left-radius: 50px;
+}
+.sub-right{
+    
+    display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+}
+.about-heading{
+    width: 70%;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.about-para{
+    width: 80%;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+}
+.about-para span{
+    color: #a3d0e7;
+}
+.about-chota-para{
+    width: 80%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-align: justify;
+    margin-top: 10px;
+}
+@media (max-width:780px) {
+    
+    .about-heading{
+width: 80%;
+font-size: 24px;    
+}
+.about-para{
+    font-size: 28px;
+    width: 80%;
+}
+.about-left{
+    display: none;
+}
+.about-right{
+    width: 90%;
+    border-radius: 40px;
+}
+ .about-chota-para {
+     width: 100%;
+     font-weight: 600;
+     text-align: justify;
+ }
+}
+@media (max-width:660px) {
+.acca-logo
+{
+    width: 90%;
+}
+.about-para{
+    font-size: 30px;
+}
+
+}
+@media (max-width:490px) {
+    
+    .about-heading {
+            width: 100%;
+            font-size: 20px;
+        }
+    .about-right{
+        padding: 25px;
+        width: 100%;
+        border-radius: 10px;
+    }
+        .about-para {
+            font-size: 30px;
+            width: 100%;
+        }
+        .about-chota-para{
+            font-size: 16px;
+        }
+               
+}
+@media (max-width:425px) {
+    .about{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .about-heading {
+            width: 100%;
+            font-size: 20px;
+        }
+          .about-para {
+              font-size: 28px;
+              width: 100%;
+          }
+        
+        .about-chota-para{
+            font-size: 16px;
+        }
+               
+}

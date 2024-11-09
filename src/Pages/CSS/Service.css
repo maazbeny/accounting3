@@ -1,0 +1,6 @@
+.servicepage{
+    display: flex;
+    flex-direction: column;
+    margin-top:0px;
+    gap: 70px;
+}

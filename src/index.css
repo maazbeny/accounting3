@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: "League Spartan";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  overflow-x: hidden; /* Hides any overflow from child elements */
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

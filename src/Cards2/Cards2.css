@@ -1,0 +1,151 @@
+ .page-card-shadow4 {
+     display: flex;
+
+
+ }
+
+ .page-card-shadow4 li {
+     list-style: none;
+     font-size: 1.1rem;
+     font-weight: 500;
+     /* height: 10vh; */
+     /* color: rgba(0, 0, 0, 0.63); */
+     color: #fff;
+ }
+
+ .page-card-shadow4 h2 {
+     color: #fff;
+     font-size: 1.8rem;
+     font-weight: 600;
+ }
+ 
+   .page-card-shadow4 {
+       display: flex;
+       flex-direction: column;
+       box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+       background: #4a39aef0;
+       gap: 20px;
+       border-radius: 20px;
+       padding: 30px;
+
+
+   }
+
+ .page-card-shadow4 h2 {
+     color: #fff;
+
+
+ }
+
+ .page-card-shadow4 p {
+     font-size: 2.25rem;
+ }
+
+ .page-card-shadow4 {
+     height: auto !important;
+
+ }
+
+
+
+ .page-card-shadow4 {
+     display: flex;
+
+
+ }
+
+ .page-card-shadow4 li {
+     list-style: none;
+
+
+ }
+
+ .page-card-shadow4 h2 {
+     color: #fff;
+
+
+ }
+
+ .page-card-shadow4 p {
+     font-size: 2.25rem;
+ }
+
+ @media (max-width:850px) {
+     .page-card-shadow4 {
+         height: auto;
+
+
+     }
+
+     .page-card-shadow4 li {
+         height: auto;
+
+
+     }
+
+     .page-card-shadow4 {
+         height: auto;
+
+     }
+
+     .page-card-shadow4 h2 {
+         height: auto;
+
+     }
+
+     .page-card-shadow4 li {
+         height: auto !important;
+     }
+
+     .page-card-shadow4 {
+         transform: translateX(0%) !important;
+
+
+     }
+       
+
+     .page-card-shadow4 {
+         height: auto !important;
+
+     }
+
+     .page-card-shadow4 li {
+         height: auto !important;
+     }
+ }
+
+ @media (min-width:1800px) {
+     .page-card-shadow4 {
+         width: 90%;
+     }
+ }
+
+ @media (min-width:1400px) {
+     .page-card-shadow4 li {
+         height: 18vh !important;
+     }
+
+     @media (max-width:1400px) {
+         .page-card-shadow4 {
+             width: 100%;
+
+
+         }
+
+         .page-card-shadow4 li {
+             height: 27vh;
+         }
+     }
+ }
+
+ @media (max-width:1200px) {
+     .page-card-shadow4 {
+         width: 100%;
+
+
+     }
+
+     .page-card-shadow4 li {
+         height: 35vh;
+     }
+ }

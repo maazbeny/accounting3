@@ -1,0 +1,165 @@
+
+ul{
+    padding-left: 0;
+}
+.shadow-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 30px;
+    row-gap: 40px;
+margin-top: 40px;
+}
+.shadow-card{
+    box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+    background: #4a39aef0;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.double-reverse-section{
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 80px;
+}
+
+.double-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+gap: 80px;
+}
+.image-section{
+    width: 50%;
+}
+.booking-img{
+    width: 100%;
+}
+.secretary-img{
+    width: 100%;
+}
+.secretary-essential{
+    width: 100%;
+}
+.help{
+    width: 80%;
+}
+.growth-img{
+    width: 70%;
+}
+.written-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    text-align: justify;
+}
+.written-heading{
+    font-size: 2.1rem;
+    color: #4a39aef0;
+    font-weight: 500;
+}
+.written-para{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.shadow-card h2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: 500;
+    height: 10vh;
+}
+.shadow-card li{
+    list-style: none;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+
+
+}
+
+.border-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    margin-top: 60px;
+
+}
+.border-card{
+    border: 4px solid #4a39aef0;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.border-card h2{
+    font-size: 24px;
+    color: #4a39aef0;
+    font-weight: 600;
+
+}
+.border-card li{
+    list-style: none;
+}
+.border-card:hover{
+    color: #fff;
+    background: #4a39aef0;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.border-card:hover h2{
+    color: #fff;
+}
+@media (max-width:630px) {
+   .shadow-cards{
+    grid-template-columns: 1fr;
+   }
+
+}
+@media (max-width:900px) {
+   .shadow-cards{
+    grid-template-columns: 1fr;
+   }
+
+}
+@media (max-width:810px) {
+    .double-section{
+       flex-direction: column;
+    }
+    .booking-img{
+        width: 100%;
+    }
+    .growth-img{
+        width: 100%;
+    }
+    .help{
+        width: 100%;
+    }
+    .secretary-essential{
+        width: 100%;
+    }
+    .secretary-img{
+        width: 100%;
+    }
+    
+    .double-reverse-section{
+       flex-direction: column-reverse;
+    }
+    .written-section{
+        width: 90%;
+        margin: auto;
+    }
+    .image-section{
+        width: 100%;
+        margin: auto;
+    }
+    .written-heading{
+        text-align: center;
+        font-weight: 600;
+    }
+}

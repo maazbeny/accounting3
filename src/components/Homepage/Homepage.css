@@ -1,0 +1,306 @@
+
+.homepage{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+    width: 95%;
+    gap: 50px;
+    margin: auto;
+}
+.homepage-right {
+    /* Adjust the size of the container if needed */
+    width: 50%;
+    height: 100%;
+    display: flex;
+        flex-direction: column;
+        align-items: end;
+}
+
+.homepage-right img {
+    
+
+    width: 100%;
+    height: auto;
+    /* Maintain aspect ratio */
+    /* Example irregular shape */
+    object-fit: cover;
+    /* Ensure the image covers the container */
+}
+ .home-logo4 {
+     width: 40% !important;
+     /* margin: auto; */
+     margin-top: 10px;
+     margin-right: 25px !important;
+ }
+
+.homepage h1{
+    /* color: black; */
+    color: white;
+    font-size: 48px;
+    text-align:left;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.homepage h1 span{
+    color:#73accf;
+    font-size: 48px;
+}
+.homepage p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    /* color: black; */
+}
+.homepage-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 80px;
+    color: white;
+}
+.logo-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.home-logo{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.homepage-call-btn {
+    padding: none;
+    background: none;
+    color: #2a2262;
+    /* color: #fff; */
+    /* background: #fff; */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.homepage-btn:active{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.homepage-btn:active .homepage-call-btn  {
+    color: #fff;
+
+}
+.homepage-btn:active .icon-1  {
+    color: #fff;
+
+}
+.call-btn{
+    display: flex;
+    gap: 8px;
+}
+.icon-1{
+    margin-top: 3px;
+    color: #2a2262;
+    font-size: 15px;
+     /* color: white; */
+}
+
+.homepage-btn {
+
+    display: flex;
+    width: 45%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid white; */
+     background: white;
+    /* color: #2a2262;  */
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 17px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+@media (max-width:960px) {
+    .logo-btn{
+        flex-direction: column;
+        align-items: start
+        ;
+        gap: 0px;
+    }
+}
+@media(max-width:1050px) {
+    .homepage h1 {
+           
+            font-size: 34px;
+          
+        }
+    
+        .homepage h1 span {
+            font-size: 34px;
+        }
+        .homepage-btn{
+            width: 195px;
+            font-size: 14px;
+        }
+        
+.homepage p{
+    font-size: 14px;
+}
+}
+
+@media (max-width:880px) {
+    .home-logo{
+        width: 100%;
+        height: 15vw;
+    }
+    .homepage{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .homepage-right{
+        width: 80%;
+    }
+    .homepage-left{
+        margin-top: 0px;
+        width: 100%;
+    }
+        .homepage h1 {
+    
+            font-size: 38px;
+            width: 70%;
+            margin: auto;
+            margin-bottom: 20px;
+    
+        }
+    
+        .homepage h1 span {
+            font-size: 38px;
+        }
+        .homepage p{
+font-size: 18px;
+        }
+                  .homepage-btn {
+                    display: flex;
+                      width: 100%;
+                      font-size: 14px;
+                      align-items: center;
+                      gap: 5px;
+                  }
+                  .call-btn{
+                    margin: auto;
+
+                  }
+                  .icon-1{
+                    margin-right: 5px;
+                    font-size: 14px;
+                  }
+                  .homepage-call-btn{
+                    font-size: 17px;
+                  }
+                  .home-logo{
+                    display: none;
+                  }
+                 
+}
+@media (max-width:750px) {
+.homepage h1 {
+
+        font-size: 42px;
+
+    }
+
+    .homepage h1 span {
+        font-size: 42px;
+    }
+    .homepage p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:690px){
+    .homepage h1 {
+    width: 100%;
+            font-size: 34px;
+            text-align: left;
+            margin: 0;
+            margin-bottom: 10px;
+    
+        }
+    
+        .homepage h1 span {
+            font-size: 34px;
+        }
+    
+        .homepage p {
+            font-size: 16px;
+            text-align: justify;
+        }
+}
+@media (max-width:470px){
+    .homepage h1 {
+    width: 100%;
+            font-size: 40px;
+            text-align: left;
+            margin: 0;
+            margin-bottom: 10px;
+    
+        }
+    
+        .homepage h1 span {
+            font-size: 38px;
+        }
+    
+        .homepage p {
+            font-size: 16px;
+        }
+}
+@media (max-width:425px){
+  
+        .homepage-right{
+            text-align: center;
+        }
+    .homepage-right {
+        width: 100%;
+       
+        max-width: 100vw;
+     
+        overflow: hidden;
+        
+        text-align: center;
+     
+    }
+    
+    .homepage-right img {
+        /* display: none; */
+        width: 100%;
+       
+        max-width: 100vw;
+   
+        height: auto;
+      
+        object-fit: cover;
+       
+        position: relative;
+     
+        left: 0%;
+    }
+        .homepage p {
+            font-size: 16px;
+        }
+        .homepage{
+            margin: 0px;
+            width: 100%;
+        }
+        .homepage-left{
+            margin: auto;
+            align-items: center;
+            width: 90%;
+        }
+        .logo-btn{
+            width: 100%;
+        }
+}

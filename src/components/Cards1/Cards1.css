@@ -1,0 +1,57 @@
+.personal-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 25px rgba(0, 0, 0, .07);
+    background: #4a39aef0;
+    gap: 20px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px 30px 30px 30px;
+
+
+}
+.personal-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+        column-gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.personal-card li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: rgba(0, 0, 0, 0.63); */
+    color: #fff;
+}
+
+.personal-card h2 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.personal-card p {
+    font-size: 2.25rem;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+@media (max-width:800px) {
+    .personal-cards{
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+}
+@media (min-width:1200px) {
+    .personal-card li{
+        font-size: 22px;
+    }
+}
+@media (max-width:1200px) {
+    .personal-card li{
+        font-size: 22px;
+    }
+}
